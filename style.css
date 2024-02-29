@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poetsen One', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Estilos para cada seção */
+.section {
+    min-height: 100%;
+    padding: 17px;
+    box-sizing: border-box;
+}
+
+/* Cores de fundo para cada seção */
+#home { background-color: #2e2e2e; } /* Tons de cinza */
+#about { background-color: #252525; }
+#skills { background-color: #1a1a1a; }
+#portfolio { background-color: #111111; }
+#experiences { background-color: #000000; }
+
+/* Estilos para o cabeçalho */
+.header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Adicione esta linha para espaçamento entre os elementos */
+    background-color: #000000;
+    padding: 50px; /* Cabeçalho maior */
+    box-sizing: border-box;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.50em;
+    margin-right: 50px;
+}
+
+.header div {
+    color: #FFFFFF;
+    font-size: 2em; /* Nome maior */
+    font-weight: bold;
+    text-align: center;
+    margin-left: 12%;
+}
+
+/* Estilos para o conteúdo da página inicial */
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 4%;
+    box-shadow: 0px 0px 10px 0px #000000;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    margin-right: 10%;
+    margin-top: 9%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.home-text {
+    width: 50%;
+}
